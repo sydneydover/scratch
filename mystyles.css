@@ -1,0 +1,46 @@
+h2{
+    background-color: rgba(255, 228, 196, 0.585);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    z-index: 1;
+    pointer-events: all;
+}
+body{
+    background-image: url(https://www.nps.gov/common/uploads/grid_builder/glca/crop16_9/84C871F3-1DD8-B71B-0BCAD116B65E0D38.jpg?width=640&quality=90&mode=crop);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+    z-index: 0;
+}
+ol{
+    background-color: rgba(240, 248, 255, 0.609);
+}
+h1{
+    background-color: rgba(255, 228, 196, 0.585);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.img-center{
+display: block;
+margin: auto;
+width: 550%;
+position: absolute;
+}
+.header{
+    top: 0px;
+    display: block;
+    margin: auto;
+    position: absolute;
+}
+.footer{
+    display: block;
+    margin: auto;
+    position: fixed;
+    z-index: 9999;
+    bottom: 0px;
+font-size: larger;
+background-color: aliceblue;
+}
+.mainstuff{
+    position: absolute;
+    top: 250px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
